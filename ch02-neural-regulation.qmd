@@ -1,0 +1,5 @@
+---
+title: "The Science of Neural Regulation: How VNS Affects Brain and Body"
+description: "A deep dive into the neurophysiological mechanisms, neurotransmitter changes, and pathways from stimulation to effect."
+---
+

@@ -1,0 +1,7 @@
+---
+title: "The Hardware Landscape: Comparing VNS Device Technologies"
+description: "Analysis of different vagus nerve stimulation devices, including ear-based, neck-based, and other stimulation approaches."
+---
+
+# The Hardware Landscape: Comparing VNS Device Technologies
+

@@ -1,0 +1,29 @@
+# Quarto-generated files
+*.html
+*.pdf
+*.docx
+*.epub
+*.qmd~
+
+# R and Python cache files
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.py[cod]
+
+# Quarto cache and log files
+.quarto/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.sav
+
+/.quarto/

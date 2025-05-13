@@ -1,0 +1,10 @@
+---
+title: "References"
+description: "Comprehensive bibliography of research and resources on vagus nerve stimulation."
+---
+
+# References {.unnumbered}
+
+
+::: {#refs}
+:::

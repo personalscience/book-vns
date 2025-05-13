@@ -1,9 +1,4 @@
-# Quarto-generated files
-*.html
-*.pdf
-*.docx
-*.epub
-*.qmd~
+
 
 # R and Python cache files
 .Rhistory

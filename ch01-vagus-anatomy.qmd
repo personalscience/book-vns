@@ -14,6 +14,8 @@ Anatomically, the vagus nerve originates in the medulla oblongata, a region of t
 
 This extensive network makes the vagus nerve unique in its ability to transmit information bidirectionally—both from brain to body and from body to brain. Approximately 80% of vagal fibers are afferent (sensory), carrying information from the organs to the brain, while the remaining 20% are efferent (motor), sending signals from the brain to the organs. This predominantly sensory nature of the vagus nerve underscores its critical role in providing the brain with moment-to-moment updates about our internal state.
 
+![The vagal nerve controls the heart and other organs. Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:2032_Automatic_Innervation.jpg)](_resources/images/2032_Automatic_Innervation.jpg)
+
 ## The Parasympathetic Commander: Regulatory Functions
 
 The vagus nerve serves as the primary component of the parasympathetic branch of the autonomic nervous system—often described as the "rest and digest" system. In contrast to the sympathetic "fight or flight" system that prepares the body for action in the face of stress or danger, the parasympathetic system promotes states of calm, relaxation, and recovery.
@@ -45,6 +47,8 @@ This afferent (sensory) information first arrives at the nucleus tractus solitar
 **The Prefrontal Cortex**: Involved in executive functions, decision-making, and emotional regulation.
 
 Through these connections, vagal afferent signals influence not only basic physiological processes but also mood, cognition, and stress responsiveness. This explains why the state of our visceral organs—our "gut feelings"—can profoundly affect our emotional states and thought processes.
+
+![The afferent signaling system in the brain. Source: [Eian](https://www.flickr.com/photos/eian/210971272)](_resources/images/eian-brain-diagram-210971272_c45fc42276_b.jpg)
 
 ## The Vagal Tone: A Measure of Nervous System Balance
 

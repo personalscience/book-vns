@@ -158,6 +158,7 @@ The field of VNS is rapidly evolving, with several innovative approaches to para
 Advanced algorithms are increasingly being used to predict optimal VNS parameters based on individual characteristics. These approaches use data from previous users to identify patterns that predict which parameters will work best for new users with similar profiles.
 
 For example, machine learning models might incorporate:
+
 - Demographic factors (age, sex, body composition)
 - Physiological metrics (baseline HRV, blood pressure)
 - Symptom profiles and therapeutic goals

@@ -35,7 +35,7 @@ Beyond the established ear and neck-based designs, several innovative approaches
 
 - **Respiratory-Synchronized VNS**: These systems deliver vagal stimulation synchronized with specific phases of respiration (typically exhalation) to leverage the natural relationship between breathing and vagal tone. This approach shows promise for enhancing parasympathetic effects.
 
-- **Mechanical/Vibrotactile Stimulation**: Instead of electrical stimulation, some newer devices use gentle mechanical vibration to stimulate vagal pathways. A study by Addorisio et al. demonstrated that such vibrotactile stimulation of the ear can reduce inflammatory responses in patients with rheumatoid arthritis[@addorisioInvestigationalTreatmentRheumatoid2019].
+- **Mechanical/Vibrotactile Stimulation**: Instead of electrical stimulation, some newer devices use gentle mechanical vibration to stimulate vagal pathways. A study by Addorisio et al. demonstrated that such vibrotactile stimulation of the ear can reduce inflammatory responses in patients with rheumatoid arthritis^[@addorisioInvestigationalTreatmentRheumatoid2019].
 
 ## Technical Parameters: The Language of Stimulation
 

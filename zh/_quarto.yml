@@ -1,0 +1,74 @@
+project:
+  type: book
+  output-dir: docs-zh
+  render:
+    - "*.zh.qmd"
+
+
+lang: zh
+
+book:
+  title: "迷走神经优势"
+  subtitle: "掌握神经刺激技术，提升现代健康"
+  author: "张大磊 与 Richard Sprague 著"
+  date: "5/14/2025"
+  search: true
+  page-footer: "Copyright 2025"
+  site-url: https://personalscience.com/vns/
+  downloads: [pdf, epub, docx]
+  cover-image: _resources/book/book-vns-kindle-cover-6x9.zh Medium.jpeg
+  
+  chapters:
+    - index.qmd
+    - ch01-vagus-anatomy.zh.qmd
+    - ch02-neural-regulation.zh.qmd
+    - ch03-vns-evolution.zh.qmd
+    - ch04-stress-anxiety.zh.qmd
+    - ch05-cognitive-edge.zh.qmd
+    - ch06-sleep-recovery.zh.qmd
+    - ch07-hardware-landscape.zh.qmd
+    - ch08-stimulation-protocols.zh.qmd
+    - ch09-practical-applications.zh.qmd
+    - ch10-future-neural-wellness.zh.qmd
+    - summary.zh.qmd
+    - references.zh.qmd
+
+bibliography: _resources/book/vns.bib
+nocite: '@*'
+
+format:
+  html:
+    theme: cosmo
+    css: _resources/css/normalize.css
+    standalone: true
+    toc: true
+    link-external-newwindow: true
+    execute:
+      fig-format: svg
+  pdf:
+    mainfont: "Noto Serif CJK SC"  # Supports Simplified Chinese
+    output-file: "The-Vagus-Advantage-zh"  # Custom name for Chinese PDF
+    papersize: "Letter"
+    toc: true
+    documentclass: scrbook
+    geometry: paperwidth=6in,paperheight=9in
+    keep-tex: true
+    header-includes:
+      - \raggedbottom
+      - \usepackage{xeCJK}
+      - \setCJKmainfont{Noto Serif CJK SC}
+    include-in-header:
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body:
+      text: |
+        \printindex
+    standalone: true
+    execute:
+      fig-format: pdf
+  docx:
+    reference-doc: _resources/book/reference.docx
+
+  epub:
+    cover-image: _resources/book/book-vns-kindle-cover-6x9 Medium.jpeg

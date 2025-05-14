@@ -28,6 +28,54 @@ quarto render
 
 This will generate the HTML version of the book in the `docs/` folder.
 
+## 🛠️ Project Setup
+
+This book uses shared resources (e.g., images, bibliography files) located in the `_resources/` directory at the project root. To make these accessible from the `en/` and `zh/` subdirectories, we use symbolic links.
+
+### ✅ macOS / Linux
+
+No special setup is required. The symlink is tracked in Git and should work automatically after cloning.
+
+### 🪟 Windows (10 or 11)
+
+1. **Enable Developer Mode** *(only required if you plan to create symlinks)*:
+    - Go to **Settings → Privacy & Security → For Developers**
+    - Turn on **Developer Mode**
+
+2. **Ensure Git preserves symlinks** when cloning:
+
+    ```bash
+    git clone -c core.symlinks=true https://github.com/your/repo.git
+    ```
+
+    Or configure globally:
+
+    ```bash
+    git config --global core.symlinks true
+    ```
+
+3. **Verify the symlink** after cloning:
+
+    ```bash
+    ls -l en/_resources
+    ```
+
+    You should see:
+
+    ```
+    _resources -> ../_resources
+    ```
+
+    If the symlink appears as a regular file or folder, Quarto builds will fail. In that case, delete and recreate it:
+
+    ```bash
+    cd en
+    rm -rf _resources
+    ln -s ../_resources _resources
+    ```
+
+> ⚠️ Without proper symlink support, image paths, bibliographies, and other shared files may not resolve during `quarto render`.
+
 ## Contributing
 
 We welcome contributions to improve the book. If you have suggestions, corrections, or additional content, feel free to open an issue or submit a pull request.
@@ -37,3 +85,5 @@ We welcome contributions to improve the book. If you have suggestions, correctio
 This project is copyright 2025 by Richard Sprague and Dr. Ray Zhang.
 
 May 2025
+
+

@@ -2,6 +2,8 @@
 
 Welcome to the repository for **The Vagus Advantage**, a comprehensive guide to understanding and leveraging vagus nerve stimulation for improved mental and physical wellbeing. This repository contains the source files for the book, written in Quarto, along with supplementary resources.
 
+View an online version of the book at [https://personalscience.github.io/book-vns/](https://personalscience.github.io/book-vns/).
+
 ## About the Book
 
 "The Vagus Advantage" bridges cutting-edge neuroscience and everyday wellness, offering insights into the remarkable potential of vagus nerve stimulation. It is designed for:

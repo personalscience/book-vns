@@ -56,7 +56,8 @@ format:
     keep-tex: true
     header-includes:
       - \raggedbottom
-      # - \usepackage[zh-CN]{babel}  # Ensure Chinese language support
+      - \usepackage{xeCJK}
+      - \setCJKmainfont{Noto Serif CJK SC}
     include-in-header:
       text: |
         \usepackage{makeidx}

@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -e
+
+echo "📘 Rendering English book to docs/en..."
+cd en
+quarto render --output-dir ../docs/en
+cd ..
+
+echo "📗 Rendering Chinese book to docs/zh..."
+cd zh
+quarto render --output-dir ../docs/zh
+cd ..
+
+echo "🔗 Copying shared resources into docs/en and docs/zh..."
+cp -r _resources docs/en/_resources
+cp -r _resources docs/zh/_resources
+
+
+echo "✅ Build complete. Preview:"
+echo "   Root:    https://personalscience.github.io/book-vns/"
+echo "   English: https://personalscience.github.io/book-vns/en/"
+echo "   Chinese: https://personalscience.github.io/book-vns/zh/"
+
+# Uncomment below if you want to auto-commit and push changes:
+# echo "📦 Committing and pushing to GitHub..."
+# git add docs/
+# git commit -m "Update built site"
+# git push

@@ -1,11 +1,8 @@
 project:
   type: book
-  output-dir: docs
+
 
 book:
-  title: "The Vagus Advantage"
-  subtitle: "Harnessing Neural Stimulation for Modern Wellness"
-  author: "Dr. Ray Zhang and Richard Sprague"
   date: "5/14/2025"
   search: true
   page-footer: "Copyright 2025"
@@ -13,21 +10,6 @@ book:
   downloads: [pdf, epub, docx]
   cover-image: _resources/book/book-vns-kindle-cover-6x9 Medium.jpeg
   
-  chapters:
-    - index.qmd
-    - intro.qmd
-    - ch01-vagus-anatomy.qmd
-    - ch02-neural-regulation.qmd
-    - ch03-vns-evolution.qmd
-    - ch04-stress-anxiety.qmd
-    - ch05-cognitive-edge.qmd
-    - ch06-sleep-recovery.qmd
-    - ch07-hardware-landscape.qmd
-    - ch08-stimulation-protocols.qmd
-    - ch09-practical-applications.qmd
-    - ch10-future-neural-wellness.qmd
-    - summary.qmd
-    - references.qmd
 
 bibliography: _resources/book/vns.bib
 nocite: '@*'
@@ -38,16 +20,16 @@ format:
     css: _resources/css/normalize.css
     standalone: true
     toc: true
+    toc-depth: 2  
     link-external-newwindow: true
     execute:
       fig-format: svg
   pdf:
-    papersize: "Letter"
-    mainfont: "Georgia"
     toc: true
     documentclass: scrbook
     geometry: paperwidth=6in,paperheight=9in
     keep-tex: true
+    toc-depth: 2  
     header-includes:
       - \raggedbottom
     include-in-header:

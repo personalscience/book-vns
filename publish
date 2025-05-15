@@ -12,8 +12,8 @@ quarto render --output-dir ../docs/zh
 cd ..
 
 echo "🔗 Copying shared resources into docs/en and docs/zh..."
-cp -r _resources docs/en/_resources
-cp -r _resources docs/zh/_resources
+cp -r _resources docs/en/
+cp -r _resources docs/zh/
 
 
 echo "✅ Build complete. Preview:"

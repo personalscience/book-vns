@@ -13,7 +13,7 @@ book:
   page-footer: "Copyright 2025"
   site-url: https://personalscience.com/vns/
   downloads: [pdf, epub, docx]
-  cover-image: _resources/book/book-vns-kindle-cover-6x9 Medium.jpeg
+  cover-image: _resources/book/book-vns-kindle-cover-6x9-Medium.jpeg
   
   chapters:
     - index.qmd
@@ -66,4 +66,4 @@ format:
     reference-doc: _resources/book/reference.docx
 
   epub:
-    cover-image: _resources/book/book-vns-kindle-cover-6x9 Medium.jpeg
+    cover-image: _resources/book/book-vns-kindle-cover-6x9-Medium.jpeg

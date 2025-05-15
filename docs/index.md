@@ -44,13 +44,13 @@ Click a cover to view the book in your preferred language:
 <div class="language-choice">
   <div>
     <a href="en/">
-      <img src="/book-vns/en/_resources/book/book-vns-kindle-cover-6x9%20Medium.jpeg" alt="English Cover">
+      <img src="en/_resources/book/book-vns-kindle-cover-6x9-Medium.jpeg" alt="English Cover">
     </a>
     <div class="language-caption">🇺🇸 English</div>
   </div>
   <div>
     <a href="zh/">
-      <img src="/book-vns/zh/_resources/book/book-vns-kindle-cover-6x9.zh%20Medium.jpeg" alt="Chinese Cover">
+      <img src="zh/_resources/book/book-vns-kindle-cover-6x9.zh-Medium.jpeg" alt="Chinese Cover">
     </a>
     <div class="language-caption">🇨🇳 中文版</div>
   </div>
